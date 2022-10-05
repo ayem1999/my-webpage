@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    background-color: #be1f1fdd;
+    width: auto;
+    height: 500px;
+    color: #e5e7eb;
+    
+}
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 20px;
+    margin-left: 25px;
+    height: 150px;
+}
+.header-link, a{
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+    color: #e5e7eb;
+    margin-left: 30px;
+    margin-top: 6px;
+    
+}
+.header-logo, .header-link{
+    display: flex;
+    justify-content: space-around;
+}
+a:hover, button:hover{
+    color: yellow;
+}
+
+.hero-main-text{
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.hero-main-text_1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    width: 450px;
+    margin-left: 270px;
+}
+.hero-secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 600;
+}
+.sign-up_1{
+    width:100px;
+    height: 40px;
+    background-color: #139a40;
+    color: #e5e7eb;
+    border-radius: 15px 15px;
+    border: 1px solid #fff;
+}
+
+.image img{
+    display: flex;
+    width: 400px;
+    height: auto;
+    float: right;
+    margin-right: 240px;
+    margin-top: -230px;
+    border-radius: 45px 25px;
+}
+.section-class{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(218, 15, 15);
+    font-family: monospace;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+.section-class img{
+    width: 220px;
+    height: auto;
+    margin: 50px;
+    border-radius: 15px 15px;
+}
+.section-class img:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.quote-section{
+    background-color: #e5e7eb;
+    height: 500px;
+}
+.quote-section p{
+    
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937;
+    text-align:center;
+    padding-top: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+span{
+    font-weight: 900;
+    font-size: 18px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 300px;
+}
+
+.footer-1{
+    background-color: #be1f1fdd;
+    height: 200px;
+    padding-top: 50px;
+}
+
+h3, .footer-text{
+    margin-left: 400px;
+    padding-top: 20px;
+    color: #e5e7eb;
+}
+.sign-up_2{
+    border: 1px solid #fff;
+    background-color:#139a40;
+    color: #e5e7eb;
+    width:90px;
+    height: 30px;
+    float: right;
+    margin-right: 600px;
+    margin-top: -50px;
+    border-radius: 15px 15px;
+}
+
